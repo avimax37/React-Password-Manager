@@ -6,8 +6,8 @@ import Login from "./pages/Login";
 const App = () => {
   return (
     <>
-      {/* <Test1 /> */}
-      <Login/>
+      <Test1 />
+      {/* <Login/> */}
     </>
   );
 };
