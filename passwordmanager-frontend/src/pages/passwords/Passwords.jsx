@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import {Link} from 'react-router-dom';
 import "./passwords.css";
 
 const Passwords = () => {
@@ -18,6 +19,11 @@ const Passwords = () => {
   return (
     <div className="table-container">
       <h2>Stored Passwords</h2>
+      <div className="button-container">
+        <Link to="/add-password" className="add-password-link">
+        Add New Password
+        </Link>
+      </div>
       <table>
         <thead>
           <tr>
